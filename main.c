@@ -19,9 +19,11 @@ int main(int argc, char** argv) {
 
     asignarDatos(n, filasN, columnasN);
 
-    mostrarDatos(n, filasN, columnasN);
+    mostrarMatrizNormal(n, filasN, columnasN);
 
     generarMatrizTranspuesta(n, t, filasN, columnasN);
+
+    mostrarMatrizTranspuesta(t, filasN, columnasN);
 
     return (EXIT_SUCCESS);
 }

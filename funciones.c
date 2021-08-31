@@ -21,7 +21,7 @@ void asignarDatos(int *p[], int m, int n) {
     }
 }
 
-void mostrarDatos(int *p[], int m, int n) {
+void mostrarMatrizNormal(int *p[], int m, int n) {
     printf("La matriz es: \n\n");
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
@@ -41,6 +41,20 @@ void generarMatrizTranspuesta(int *p[], int *t[], int m, int n) {
 
 
 
+    /*printf("La matriz transpuesta es: \n\n");
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            printf("%d\t", t[i][j]);
+        }
+        printf("\n");
+    }
+    printf("\n");*/
+
+
+
+}
+
+void mostrarMatrizTranspuesta(int *t[], int m, int n) {
     printf("La matriz transpuesta es: \n\n");
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < m; j++) {
@@ -49,7 +63,4 @@ void generarMatrizTranspuesta(int *p[], int *t[], int m, int n) {
         printf("\n");
     }
     printf("\n");
-
-
-
 }
